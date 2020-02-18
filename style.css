@@ -1,254 +1,43 @@
-*{
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
-}
 body{
-    height: 100%;
-    background-color:rgba(var(--b3f,250,250,250),1);
-}
-#header{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    position:relative;
-    background-color:white;
-    height: 77px;
-    border-bottom: 1px solid rgb(238, 230, 230);
-    z-index: 4;
-}
-#svg {
-    position:absolute;
+    width: 100%;
     display: flex;
-    left:200px;
+    justify-content:center;
+    align-content: center;
 }
-#icons_svg{
-    position:absolute;
-    display:flex;
-    right:100px;
-    justify-content: space-around;
+.input{
+        padding:20px;
 }
-.search{
-    left: 35px;
-    border: 1px solid grey;
-    border-radius:2px;
-    position:relative;
-    top:9px;   
-}
-#instagram_logo{
-margin-right:10px;
-}
-#border{
-    border-right:2px solid black;
-    height: 25px;
-}
-#instagram{
-    margin-left:10px;
-}
- .activity-feed{
-     position: relative;
-     left:10px;
- }
- .profile{
-     position: relative;
-     left:15px;
- }
-
-.slimcase-image{
-    border-radius:45px;
-    width: 40px; 
-    height: 40px;
-}
-.mrcekay-picture{
-    border-radius:45px;
-    width: 40px; 
-    height: 40px;
-}
-div.profile-wrapper{
-    border:1px solid rgb(218, 216, 216);
-    width:41rem;
-}
-.profile-wrapper2{
-    border:1px solid rgb(218, 216, 216);
-    width:41rem;
-    position:absolute;
-    top:1100px;
-    left:100px;
-
-}
-.proud-yoruba{
- width: 50px; 
- height: 50px;
- border-radius:45px;
-}
-.pp{
-    border-radius:45px;
-    width:42px;
-    height:42px;
-    border:1px solid red;
-    position:relative;
-    top:20px;
-}
-.pp2{
-    border-radius:45px;
-    width:42px;
-    height:42px;
-}
-
-#main-left{
-    position:absolute;
-    left:100px;
-    top:150px;
-}
-.stories{
-    position: absolute;
-    top:240px;
-    right:280px;
-    width:291px;
-    height: 221px;
-    border:2px solid black;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background-color:white;
-    border:1px solid rgb(218, 216, 216);
-}
-.name{
-    position:absolute;
-    right:280px;
-    top:150px;
-    width:288px;
-    height: 50px;
-}
-.stories-container{
-    border:2px solid black;
-}
-.stories-wrapper{
-    display:flex;
-    justify-content: space-between;
-}
-#main-right{
-    width:213px;
-    height: 411px;
-    display:absolute;
-    float:right;
-    left:300px;
-    top:500px;
-}
-
-.uploaded{
-    width:41rem;
-}
-.follow-wrapper{
-    border:1px solid black;
-    left:780px;
-    right:200px;
-    top:500px;
-    width:291px;
-    height: 221px;
-    position:absolute;
-    border:1px solid rgb(218, 216, 216);
-    background-color:white;
-}
-.follow-heading{
-    display:flex;
-    justify-content:space-between;
-    margin:10px;   
-}
-.follow{
-    color:rgb(18, 115, 180); 
-    text-decoration:none;
-    position:absolute;
-    top:45px;
-    right:2px;
-    font-size: 12px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-.follows-you{
-    position:absolute;
-    top:48px;
-    left:47px;
-    margin:5px;
-    opacity:0.5;
-}
-.follow1{
-    color:rgb(18, 115, 180); 
-    text-decoration:none;
-    position:absolute;
-    top:108px;
-    right:2px;
-    font-size:12px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-.follows-you1{
-    position:absolute;
-    top:108px;
-    left:47px;
-    margin:5px;
-    opacity:0.5;
-}
-.follows-you2{
-    position:absolute;
-    top:159px;
-    left:47px;
-    margin:5px;
-    opacity:0.5;
-}
-.follow2{
-    color:rgb(18, 115, 180); 
-    text-decoration:none;
-    position:absolute;
-    top:159px;
-    right:2px;
-    margin:8px;
-    font-size:12px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-.suggestions{
-    margin:10px;
-}
-.p-stories{
-    font-size:0.7rem;
-    opacity:0.5;
-    position:relative;
-    left:45px;
-    margin-top:5px;
-}
-.pp-name{
+select, input {
+    height: 30px;
+    margin-left: 20px;
     position: relative;
-    top:0px;
-    margin-bottom:5px;
+    right: 0px;
 }
-footer{
-    left:780px;
-    right:200px;
-    top:750px;
-    height: 221px;
-    position:absolute;
+#container{
+    background-color:teal;
+    box-shadow: 10px 10px 2px  rgba(0,128,128,0.2);
 }
-li{
-    list-style-type: none;
+h1{
+    text-align: center;
 }
-.footer_link{
-    text-decoration:none;
-    color:black;
+label{
+    font-size:25px;
 }
-.footer-list li{
-    display:inline;
-    font-size:12px;
-    opacity:0.5;
+.calculate{
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
-#copyright{
-    font-size:12px;
-    opacity:0.5;
-    margin-top:20px;
+#calculatebtn{
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(235, 240, 240, 0.2);
 }
-@media only screen and (max-width:600px) {
-    .stories{display:block;
-        position:absolute;
-        top:640px;
-    right:280px;
-    }
-    footer{
-        display:block;
-    }
+#calculatebtn:hover{
+    background-color: skyblue;
+    color:rgb(243, 237, 237);
+}
+#amount{
+    padding:5px;
+    margin:5px;
 }
